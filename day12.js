@@ -1,4 +1,3 @@
-
 var addTwoPromises = async function(promise1, promise2) {
     try {
         const [res1, res2] = await Promise.all([promise1, promise2]);
